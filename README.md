@@ -1,3 +1,16 @@
+# For Junkyard project purposes
+
+`sysbench [options]... [testname] [command]`
+
+sysbench comes with the following bundled benchmarks:
+
+- `oltp_*.lua`: a collection of OLTP-like database benchmarks
+- `fileio`: a filesystem-level benchmark
+- `cpu`: a simple CPU benchmark
+- `memory`: a memory access benchmark
+- `threads`: a thread-based scheduler benchmark
+- `mutex`: a POSIX mutex benchmark
+
 [![Latest Release][release-badge]][release-url]
 [![Build Status][action-badge]][action-url]
 [![Debian Packages][deb-badge]][deb-url]
